@@ -1,0 +1,19 @@
+{
+  "name": "justawebdev/laravel-simple-analytics",
+  "description": "Lightweight server-side analytics for Laravel",
+  "autoload": {
+    "psr-4": {
+      "JustAWebDev\\Analytics\\": "src/"
+    },
+    "files": [
+      "src/Helpers/helpers.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "JustAWebDev\\Analytics\\AnalyticsServiceProvider"
+      ]
+    }
+  }
+}
